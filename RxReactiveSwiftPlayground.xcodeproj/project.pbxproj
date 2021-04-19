@@ -56,6 +56,7 @@
 		654F096A262C3DCA00B288A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		654F098D262C3F7E00B288A9 /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		654F099F262C456400B288A9 /* Disposebag.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Disposebag.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		654F09A7262D8E0700B288A9 /* PublishSubejct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PublishSubejct.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		737239A9C5C8196C6991D9C0 /* Pods_RxReactiveSwiftPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxReactiveSwiftPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		747598A36362CCC476ACA917 /* Pods_RxReactiveSwiftPlayground_RxReactiveSwiftPlaygroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxReactiveSwiftPlayground_RxReactiveSwiftPlaygroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9D847F408A7D0A9BB593B7 /* Pods-RxReactiveSwiftPlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxReactiveSwiftPlaygroundTests.release.xcconfig"; path = "Target Support Files/Pods-RxReactiveSwiftPlaygroundTests/Pods-RxReactiveSwiftPlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				654F0984262C3ED400B288A9 /* chapter1 */,
+				654F09A3262D8DCC00B288A9 /* chapter2 */,
 				654F0946262C3DC800B288A9 /* AppDelegate.swift */,
 				654F0948262C3DC800B288A9 /* SceneDelegate.swift */,
 				654F094A262C3DC800B288A9 /* ViewController.swift */,
@@ -155,6 +157,14 @@
 				654F099F262C456400B288A9 /* Disposebag.playground */,
 			);
 			path = chapter1;
+			sourceTree = "<group>";
+		};
+		654F09A3262D8DCC00B288A9 /* chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				654F09A7262D8E0700B288A9 /* PublishSubejct.playground */,
+			);
+			path = chapter2;
 			sourceTree = "<group>";
 		};
 		65BE6FE69E546CF1ED2B1A9D /* Frameworks */ = {
