@@ -63,6 +63,7 @@
 		654F09B0262D955700B288A9 /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
 		654F09B5262D967800B288A9 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		654F09C8262EE9D200B288A9 /* Skip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Skip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		654F09CC262EF07E00B288A9 /* Take.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Take.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		737239A9C5C8196C6991D9C0 /* Pods_RxReactiveSwiftPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxReactiveSwiftPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		747598A36362CCC476ACA917 /* Pods_RxReactiveSwiftPlayground_RxReactiveSwiftPlaygroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxReactiveSwiftPlayground_RxReactiveSwiftPlaygroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9D847F408A7D0A9BB593B7 /* Pods-RxReactiveSwiftPlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxReactiveSwiftPlaygroundTests.release.xcconfig"; path = "Target Support Files/Pods-RxReactiveSwiftPlaygroundTests/Pods-RxReactiveSwiftPlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -189,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				654F09C8262EE9D200B288A9 /* Skip.playground */,
+				654F09CC262EF07E00B288A9 /* Take.playground */,
 			);
 			path = chapter4;
 			sourceTree = "<group>";
