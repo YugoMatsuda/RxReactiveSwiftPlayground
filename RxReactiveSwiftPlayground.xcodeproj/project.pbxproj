@@ -16,6 +16,8 @@
 		654F0953262C3DC900B288A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654F0951262C3DC900B288A9 /* LaunchScreen.storyboard */; };
 		654F095E262C3DCA00B288A9 /* RxReactiveSwiftPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F095D262C3DCA00B288A9 /* RxReactiveSwiftPlaygroundTests.swift */; };
 		654F0969262C3DCA00B288A9 /* RxReactiveSwiftPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F0968262C3DCA00B288A9 /* RxReactiveSwiftPlaygroundUITests.swift */; };
+		654F09B1262D955700B288A9 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654F09B0262D955700B288A9 /* Camera.storyboard */; };
+		654F09B6262D967800B288A9 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F09B5262D967800B288A9 /* CameraViewController.swift */; };
 		714BF6D4BC90420FFDBAA8EB /* Pods_RxReactiveSwiftPlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90EB15E12E39B5DFDCFD047 /* Pods_RxReactiveSwiftPlaygroundTests.framework */; };
 		A2423E1F453B308770B11F93 /* Pods_RxReactiveSwiftPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737239A9C5C8196C6991D9C0 /* Pods_RxReactiveSwiftPlayground.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,9 @@
 		654F099F262C456400B288A9 /* Disposebag.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Disposebag.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		654F09A7262D8E0700B288A9 /* PublishSubejct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PublishSubejct.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		654F09AB262D908000B288A9 /* BehaviorSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BehaviorSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		654F09B0262D955700B288A9 /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		654F09B5262D967800B288A9 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		654F09C8262EE9D200B288A9 /* Skip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Skip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		737239A9C5C8196C6991D9C0 /* Pods_RxReactiveSwiftPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxReactiveSwiftPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		747598A36362CCC476ACA917 /* Pods_RxReactiveSwiftPlayground_RxReactiveSwiftPlaygroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxReactiveSwiftPlayground_RxReactiveSwiftPlaygroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9D847F408A7D0A9BB593B7 /* Pods-RxReactiveSwiftPlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxReactiveSwiftPlaygroundTests.release.xcconfig"; path = "Target Support Files/Pods-RxReactiveSwiftPlaygroundTests/Pods-RxReactiveSwiftPlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +127,8 @@
 			children = (
 				654F0984262C3ED400B288A9 /* chapter1 */,
 				654F09A3262D8DCC00B288A9 /* chapter2 */,
+				654F09AF262D953100B288A9 /* chapter3 */,
+				654F09C7262EE82E00B288A9 /* chapter4 */,
 				654F0946262C3DC800B288A9 /* AppDelegate.swift */,
 				654F0948262C3DC800B288A9 /* SceneDelegate.swift */,
 				654F094A262C3DC800B288A9 /* ViewController.swift */,
@@ -167,6 +174,23 @@
 				654F09AB262D908000B288A9 /* BehaviorSubject.playground */,
 			);
 			path = chapter2;
+			sourceTree = "<group>";
+		};
+		654F09AF262D953100B288A9 /* chapter3 */ = {
+			isa = PBXGroup;
+			children = (
+				654F09B0262D955700B288A9 /* Camera.storyboard */,
+				654F09B5262D967800B288A9 /* CameraViewController.swift */,
+			);
+			path = chapter3;
+			sourceTree = "<group>";
+		};
+		654F09C7262EE82E00B288A9 /* chapter4 */ = {
+			isa = PBXGroup;
+			children = (
+				654F09C8262EE9D200B288A9 /* Skip.playground */,
+			);
+			path = chapter4;
 			sourceTree = "<group>";
 		};
 		65BE6FE69E546CF1ED2B1A9D /* Frameworks */ = {
@@ -301,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				654F0953262C3DC900B288A9 /* LaunchScreen.storyboard in Resources */,
+				654F09B1262D955700B288A9 /* Camera.storyboard in Resources */,
 				654F0950262C3DC900B288A9 /* Assets.xcassets in Resources */,
 				654F094E262C3DC800B288A9 /* Main.storyboard in Resources */,
 			);
@@ -431,6 +456,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				654F094B262C3DC800B288A9 /* ViewController.swift in Sources */,
+				654F09B6262D967800B288A9 /* CameraViewController.swift in Sources */,
 				654F0947262C3DC800B288A9 /* AppDelegate.swift in Sources */,
 				654F0949262C3DC800B288A9 /* SceneDelegate.swift in Sources */,
 			);
