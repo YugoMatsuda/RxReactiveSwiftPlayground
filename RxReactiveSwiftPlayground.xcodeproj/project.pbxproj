@@ -62,8 +62,8 @@
 		654F09AB262D908000B288A9 /* BehaviorSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BehaviorSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		654F09B0262D955700B288A9 /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
 		654F09B5262D967800B288A9 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		654F09C8262EE9D200B288A9 /* Skip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Skip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		654F09CC262EF07E00B288A9 /* Take.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Take.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		654F09C8262EE9D200B288A9 /* skip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		654F09CC262EF07E00B288A9 /* take.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = take.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		654F09D1262EF26800B288A9 /* toArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = toArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		654F09D5262EF31500B288A9 /* map.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = map.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		654F09DE2633E5C100B288A9 /* flatMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = flatMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -193,8 +193,8 @@
 		654F09C7262EE82E00B288A9 /* chapter4 */ = {
 			isa = PBXGroup;
 			children = (
-				654F09C8262EE9D200B288A9 /* Skip.playground */,
-				654F09CC262EF07E00B288A9 /* Take.playground */,
+				654F09C8262EE9D200B288A9 /* skip.playground */,
+				654F09CC262EF07E00B288A9 /* take.playground */,
 			);
 			path = chapter4;
 			sourceTree = "<group>";
