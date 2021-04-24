@@ -67,6 +67,7 @@
 		654F09D1262EF26800B288A9 /* toArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = toArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		654F09D5262EF31500B288A9 /* map.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = map.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		654F09DE2633E5C100B288A9 /* flatMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = flatMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		654F0A092633EE7400B288A9 /* startWith.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = startWith.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		737239A9C5C8196C6991D9C0 /* Pods_RxReactiveSwiftPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxReactiveSwiftPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		747598A36362CCC476ACA917 /* Pods_RxReactiveSwiftPlayground_RxReactiveSwiftPlaygroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxReactiveSwiftPlayground_RxReactiveSwiftPlaygroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9D847F408A7D0A9BB593B7 /* Pods-RxReactiveSwiftPlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxReactiveSwiftPlaygroundTests.release.xcconfig"; path = "Target Support Files/Pods-RxReactiveSwiftPlaygroundTests/Pods-RxReactiveSwiftPlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,9 +135,10 @@
 				654F09AF262D953100B288A9 /* chapter3 */,
 				654F09C7262EE82E00B288A9 /* chapter4 */,
 				654F09D0262EF25600B288A9 /* chapter5 */,
-				654F0948262C3DC800B288A9 /* SceneDelegate.swift */,
+				654F0A082633EE5B00B288A9 /* chapter6 */,
 				654F0946262C3DC800B288A9 /* AppDelegate.swift */,
 				654F094A262C3DC800B288A9 /* ViewController.swift */,
+				654F0948262C3DC800B288A9 /* SceneDelegate.swift */,
 				654F094C262C3DC800B288A9 /* Main.storyboard */,
 				654F094F262C3DC900B288A9 /* Assets.xcassets */,
 				654F0951262C3DC900B288A9 /* LaunchScreen.storyboard */,
@@ -207,6 +209,14 @@
 				654F09DE2633E5C100B288A9 /* flatMap.playground */,
 			);
 			path = chapter5;
+			sourceTree = "<group>";
+		};
+		654F0A082633EE5B00B288A9 /* chapter6 */ = {
+			isa = PBXGroup;
+			children = (
+				654F0A092633EE7400B288A9 /* startWith.playground */,
+			);
+			path = chapter6;
 			sourceTree = "<group>";
 		};
 		65BE6FE69E546CF1ED2B1A9D /* Frameworks */ = {
