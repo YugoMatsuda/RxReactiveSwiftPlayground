@@ -1,0 +1,34 @@
+PODS:
+  - ReactiveCocoa (11.1.0):
+    - ReactiveSwift (~> 6.2)
+  - ReactiveSwift (6.5.0)
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
+
+DEPENDENCIES:
+  - ReactiveCocoa
+  - RxCocoa
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - ReactiveCocoa
+    - ReactiveSwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  ReactiveCocoa: 7bc87ad2d361b9de141278b1950edd7fe91b15b1
+  ReactiveSwift: 8d159904084e908856cde90b2e28823f3c7e485f
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+
+PODFILE CHECKSUM: 7e995e894f4fa22c37d9f06a5e35762bd50be895
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module Pods_RxReactiveSwiftPlayground_RxReactiveSwiftPlaygroundUITests {
+  umbrella header "Pods-RxReactiveSwiftPlayground-RxReactiveSwiftPlaygroundUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

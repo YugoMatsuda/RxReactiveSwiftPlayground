@@ -1,6 +1,6 @@
 import RxSwift
 import ReactiveSwift
-
+import Combine
 
 //RxSwift
 let observable = Observable.just(1)
@@ -18,3 +18,10 @@ signalProducer.startWithValues { value in
     print(value)
     // 1
 }
+
+//Combine
+let publisher = Just(1)
+    
+publisher.sink { value in
+    print(value)
+    }
